@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .spinning-text {
+      animation: spin 3s linear infinite;
+      transform-origin: 16px 16px;
+    }
+  </style>
+  <rect width="32" height="32" fill="#000"/>
+  <text x="16" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="900" text-anchor="middle" fill="#ff0000" class="spinning-text">DC</text>
+</svg> 
